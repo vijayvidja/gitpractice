@@ -52,7 +52,7 @@ public class LoginPageTest extends Base{
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
-		driver = null; // All the objects are alive in memory that can full. So clean memory.
+		driver = null; // All the objects are alive in memory that can full. So clean memory. comment update
 	}
 
 }

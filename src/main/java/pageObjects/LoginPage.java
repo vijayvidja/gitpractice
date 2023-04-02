@@ -17,6 +17,7 @@ public class LoginPage {
 		this.driver = x;
 	}
 	
+	//Get email
 	public WebElement getEmail() {
 		return driver.findElement(email);
 	}
